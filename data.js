@@ -392,3 +392,38 @@ const GLOBAL_PITFALLS = [
     detail: "到达日和返程日最容易因为航班、取车、还车、疲劳而出问题。"
   }
 ];
+
+const FOOD_SPOTS = [
+  { city: "伊宁", name: "手抓饭与烤包子线路", tags:["本地经典","亲子友好"], tip:"午高峰排队明显，建议11:30前到店。" },
+  { city: "特克斯", name: "夜市轻食与烤肉", tags:["中转晚餐","性价比"], tip:"旺季晚上 20:00 后拥挤。" },
+  { city: "赛里木湖周边", name: "自备补给优先", tags:["补给建议","避雷"], tip:"景区餐饮价格波动大，建议提前备水和零食。" }
+];
+
+const TRAVEL_TOOLS = {
+  transport: [
+    { mode:"自驾", fit:"家庭/摄影/行程灵活", cost:"中", risk:"夜路和雨天风险高" },
+    { mode:"包车", fit:"不想驾驶山路", cost:"中到高", risk:"要确认司机资质和保险" },
+    { mode:"大巴+拼车", fit:"预算优先", cost:"低到中", risk:"班次和时效不稳定" }
+  ],
+  carRental: [
+    "优先选择可免费取消订单，避免航班变更损失。",
+    "取车时拍摄四角、玻璃、轮胎和油量，保留时间戳。",
+    "确认保险范围：车损、三者、玻璃、轮胎是否覆盖。"
+  ],
+  toilets: [
+    { area:"伊宁市区", note:"商圈和游客中心覆盖较好，建议导航“公共卫生间”。" },
+    { area:"赛里木湖环湖线", note:"核心观景点附近有公厕，但高峰可能排队。" },
+    { area:"琼库什台村落", note:"公厕数量少，建议在出发前和住宿点优先解决。" }
+  ],
+  hotels: [
+    { area:"伊宁", suggest:"适合首晚和返程前夜，重视停车与早出发便利。" },
+    { area:"特克斯", suggest:"适合中转，第二天去草原方向更轻松。" },
+    { area:"景区周边", suggest:"重视差评关键词：隔音、热水、卫生、临时涨价。" }
+  ]
+};
+
+const RISK_SOURCES = [
+  { title:"赛里木湖旺季停车拥堵", level:"中", avoid:"错峰 9:00 前或 17:00 后入场", source:"小红书用户实拍汇总", sourceDate:"2026-04", url:"https://www.xiaohongshu.com" },
+  { title:"琼库什台民宿涨价与设施落差", level:"高", avoid:"仅订可退改，重点看近30天差评", source:"微信公众号旅行社群整理", sourceDate:"2026-03", url:"https://mp.weixin.qq.com" },
+  { title:"山路雨天会车风险", level:"高", avoid:"雨天降级路线，避免夜间驾驶", source:"小红书+公众号交叉反馈", sourceDate:"2026-04", url:"https://www.xiaohongshu.com" }
+];
