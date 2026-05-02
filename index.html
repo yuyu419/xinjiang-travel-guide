@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1f6f68" />
+  <title>伊犁旅行避坑攻略</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">新疆 · 伊犁河谷</p>
+        <h1>伊犁旅行避坑攻略</h1>
+      </div>
+      <button id="installTipBtn" class="ghost-btn" title="安装说明">安装到桌面</button>
+    </header>
+
+    <main id="main"></main>
+
+    <nav class="bottom-nav" aria-label="底部导航">
+      <button data-route="home" class="nav-btn active">首页</button>
+      <button data-route="destinations" class="nav-btn">目的地</button>
+      <button data-route="routes" class="nav-btn">路线</button>
+      <button data-route="pitfalls" class="nav-btn">避坑</button>
+      <button data-route="favorites" class="nav-btn">收藏</button>
+    </nav>
+  </div>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

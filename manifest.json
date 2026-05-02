@@ -1,0 +1,16 @@
+{
+  "name": "伊犁旅行避坑攻略",
+  "short_name": "伊犁攻略",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f4ee",
+  "theme_color": "#1f6f68",
+  "description": "新疆伊犁旅行详细攻略、路线规划与避坑指南。",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
